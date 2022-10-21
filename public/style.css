@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://i.makeagif.com/media/8-11-2018/jET9FZ.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    /* background-image: linear-gradient(red, yellow, blue); */
+    background-blend-mode: darken;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 150px;
+    color:  #ffffff;
+}
+
+.box {
+    border: 2px double rgb(77, 77, 77);
+    background: conic-gradient(rgb(65, 65, 65), rgb(58, 57, 57), rgb(96, 98, 99),rgb(58, 58, 58));
+    width: 300px;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    margin: 50px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 15px; 
+    text-shadow: 4px rgb(255, 0, 0);
+    color: #ffffff;
+    box-shadow:  10px wheat;
+}
